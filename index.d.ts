@@ -1844,4 +1844,6 @@ declare var $: cssSelectorHelper;
 declare var $$: cssArraySelectorHelper;
 
 
-export = protractor;
+declare module 'protractor' {
+    export = protractor;
+}
